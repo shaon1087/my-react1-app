@@ -3,6 +3,7 @@ import './App.css'
 import Counter from './Counter';
 import Team from './Team';
 import User from './User';
+import Friends from './Friends';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return(
     <>
     <h1>react core concept</h1>
+    <Friends></Friends>
     <User></User>
     <Counter> 
 
